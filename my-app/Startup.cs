@@ -30,8 +30,8 @@ namespace my_app
 
             services.AddControllers();
 
-            services.AddScoped<NotesRepository>();
-            services.AddScoped<NotesService>();
+            services.AddScoped<BookRepository>();
+            services.AddScoped<BookService>();
 
             services.AddCors(options =>
             {
